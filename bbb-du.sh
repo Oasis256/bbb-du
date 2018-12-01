@@ -15,7 +15,7 @@ parameters="-s" # Default parameter for size
 for par in "$@"
 do
         case "$par" in
-                -h|--human-readable) # Human readable parametr
+                -h|--human-readable) # Human readable dir size
                         parameters="$parameters -h"
                         ;;
                 *)
